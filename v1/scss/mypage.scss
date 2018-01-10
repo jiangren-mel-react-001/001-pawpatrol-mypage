@@ -1,16 +1,18 @@
+@import 'main';
+
 #main-image {
     width: 15rem;
 }
 .container-fluid {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: $row-gap;
+    padding-bottom: $row-gap;
 }
 .bg-1 { 
     background-color: #1abc9c; /* Green */
     color: #ffffff;
 }
 .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
+    background-color: $primary-color; /* Dark Blue */
     color: #ffffff;
 }
 .bg-3 { 

@@ -1,3 +1,4 @@
+@import 'main';
 
 * {
     box-sizing: border-box;
@@ -6,10 +7,12 @@
     display: inline-block;
     width: 100%;
     margin-right: 5px;
+    border: 1px solid $primary-color;
 }
 .row {
     /* border: 1px solid red; */
-    margin-top: 10px;
+    padding-bottom: $row-gap;
+    padding-top: $row-gap;
 }
 @media (min-width: 500px) {
     .col-md-50 {
